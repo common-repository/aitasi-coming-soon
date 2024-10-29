@@ -1,0 +1,44 @@
+input[type=number].regular-text{
+    width: 70px;
+}
+
+input.sp-date-picker {
+    width: 140px;
+}
+
+/* Help Support Area */
+.help_support_area{
+	padding: 12px;
+}
+
+
+/* Suppor Button */
+.support-pro{
+	float: right;
+	margin-top: 15px;
+}
+
+.support-pro a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 2px;
+    padding: 8px 16px;
+}
+
+.support-pro a.btn-support{
+	background-color: #55b439;
+}
+
+.support-pro a.btn-support:hover{
+	background-color: #2AB302;
+}
+
+.support-pro a.btn-pro{
+	background-color: #5dc8d0;
+}
+
+.support-pro a.btn-pro:hover{
+	background-color: #05C3D2;
+}

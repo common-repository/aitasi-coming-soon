@@ -1,0 +1,710 @@
+/*
+	Author: ShapedPlugin
+	Template: Aitasi
+	Version: 2.0
+	URL: https://shapedplugin.com
+*/
+
+/*
+====================================
+------------------------------------
+	1. General
+	2. Home
+	3. Social Icons
+	4. Service
+	5. About
+	6. Contact
+	7. Footer
+-------------------------------------
+=====================================
+*/
+
+/* === General === */
+
+body.aitasi {
+	font-weight: 400;
+	background: #fff;
+	color: #43484E
+}
+
+html, body.aitasi {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+
+}
+
+/* Twenty sixteen theme*/
+body.aitasi:not(.custom-background-image):before, body:not(.custom-background-image):after {
+	height: 0;
+}
+
+.blog.aitasi:before {
+	display: none;
+}
+
+.aitasi a:hover {
+	outline: none;
+	text-decoration: none;
+}
+
+.aitasi a:focus {
+	outline: none;
+	outline-offset: 0;
+}
+
+.aitasi textarea:focus, input:focus {
+	outline: none;
+	outline-offset: 0;
+}
+
+.aitasi a {
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+}
+
+.aitasi .btn-primary:focus,
+.aitasi .btn-primary:active {
+	outline: none;
+}
+
+.aitasi #st-preloader {
+	background: #FFF;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+.aitasi #pre-status,
+.aitasi .preload-placeholder {
+	background-image: url("../images/preloader.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 50px;
+	left: 50%;
+	margin: -25px 0 0 -25px;
+	position: absolute;
+	top: 50%;
+	width: 50px;
+}
+
+.aitasi .preload-placeholder {
+	background: none;
+	left: 0;
+	margin: 0;
+	text-align: center;
+	top: 65%;
+}
+
+/* === Home === */
+
+.aitasi #home-page {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.aitasi .home-bg {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: -2;
+}
+
+.aitasi #home-page .aitasi-container {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	z-index: 10;
+}
+
+.aitasi .main-logo {
+	margin-bottom: 50px;
+}
+
+.aitasi .home-page h2 {
+	font-size: 30px;
+}
+
+.aitasi .home-page h1 {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.aitasi .home-page p {
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.aitasi .tk-countdown {
+	margin-top: 35px;
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+.aitasi .tk-countdown > * {
+	text-align: center;
+}
+
+.aitasi .tk-countdown div.days {
+	border: 2px solid;
+	border-radius: 20px 0;
+	width: 120px;
+	height: 120px;
+	padding-top: 15px;
+	margin: 15px;
+}
+
+.aitasi .tk-countdown div.hours {
+	border: 2px solid;
+	border-radius: 20px 0;
+	width: 120px;
+	height: 120px;
+	padding-top: 15px;
+	margin: 15px;
+}
+
+.aitasi .tk-countdown div.minutes {
+	border: 2px solid;
+	border-radius: 20px 0;
+	width: 120px;
+	height: 120px;
+	padding-top: 15px;
+	margin: 15px;
+}
+
+.aitasi .tk-countdown div.seconds {
+	border: 2px solid;
+	border-radius: 20px 0;
+	width: 120px;
+	height: 120px;
+	padding-top: 15px;
+	margin: 15px;
+}
+
+.aitasi .tk-countdown div {
+	display: inline-block;
+}
+
+.aitasi .tk-countdown div span {
+	display: block;
+}
+
+.aitasi .tk-countdown div span:first-child {
+	height: 64px;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 64px;
+}
+
+.aitasi .tk-countdown div span:last-child {
+	height: 20px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.aitasi .subscribe-area div {
+	display: inline-flex;
+}
+
+.aitasi .subscribe-area .form-control {
+	background: transparent;
+	border: 1px solid;
+	width: 270px;
+	border-radius: 8px 0 0 0;
+	margin-right: -5px;
+	display: inline-block;
+	line-height: 40px;
+	font-size: 14px;
+	height: 40px;
+}
+
+.aitasi #subscribe .submit-bt {
+	color: #fff;
+	border: 1px solid;
+	font-size: 19px;
+	padding: 0 20px;
+	border-radius: 0 0 8px 0;
+	line-height: 40px;
+	height: 40px;
+}
+
+.aitasi .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	color: #fff;
+}
+
+.aitasi .st-subscribe-message {
+	color: #fff;
+	font-weight: 400;
+	margin-top: 8px;
+}
+
+.aitasi .st-subscribe-message .fa-warning {
+	color: #FA1818;
+}
+
+.aitasi .st-subscribe-message .fa-check {
+	color: #00C227;
+}
+
+/* === Social Icons === */
+.aitasi .social-share {
+	margin-top: 20px;
+}
+
+.aitasi .social-share a i {
+	border: 1px solid;
+	font-size: 20px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 8px 0;
+	margin: 4px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.aitasi .social-share a:hover i {
+	color: #ffffff;
+}
+
+/* === Service === */
+.aitasi #service-page {
+	background-color: #ffffff;
+	padding: 100px 0;
+}
+
+.aitasi #service-page .service-title {
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-bottom: 18px;
+}
+
+.aitasi .service-area-icon {
+	width: 380px;
+	margin: 0 auto;
+}
+
+.aitasi .service-area-left {
+	width: 150px;
+	height: 1px;
+	float: left;
+	margin-top: 16px;
+}
+
+.aitasi .service-area-right {
+	width: 150px;
+	height: 1px;
+	float: right;
+	margin-top: 16px;
+}
+
+.aitasi .service-area-icon i {
+	font-size: 16px;
+	border: 1px solid;
+	width: 33px;
+	height: 33px;
+	line-height: 32px;
+	border-radius: 6px 0 6px 0;
+}
+
+.aitasi #service-page h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.aitasi #service-page p {
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.aitasi .service {
+	margin-top: 20px;
+}
+
+.aitasi .service i {
+	background: transparent;
+	border: 2px solid;
+	font-size: 30px;
+	padding: 18px;
+	border-radius: 12px 0;
+	width: 72px;
+	height: 70px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.aitasi .service:hover i {
+	color: #ffffff;
+}
+
+.aitasi .service h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.aitasi .service p {
+	color: #808b8d;
+	font-size: 14px;
+}
+
+/* === About === */
+.aitasi #about-page {
+	background-color: #1b1b1b;
+	padding: 100px 0;
+}
+
+.aitasi #about-page .about-title {
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-bottom: 18px;
+}
+
+.aitasi #about-page h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.aitasi #about-page p {
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.aitasi .member {
+	margin-top: 25px;
+}
+
+.aitasi .member .member-img {
+	position: relative;
+	width: 300px;
+	margin: auto;
+}
+
+.aitasi .member .member-img:before {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	z-index: 200;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	border-radius: 40px 0;
+}
+
+.aitasi .member .member-img:hover:before {
+	opacity: 0.6;
+}
+
+.aitasi .member .member-img img {
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 40px 0;
+	width: 100%;
+	height: auto;
+}
+
+.aitasi .member-social {
+	position: absolute;
+	width: 303px;
+	height: 303px;
+	top: 0;
+	left: 0;
+}
+
+.aitasi .member-social .facebook-icon i {
+	color: #ffffff;
+	font-size: 20px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 8px 0;
+	margin: 1px;
+	position: absolute;
+	top: -0px;
+	left: 114px;
+	z-index: -999;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.aitasi .member .member-img:hover .facebook-icon i {
+	top: 114px;
+	z-index: 300;
+}
+
+.aitasi .member-social .twitter-icon i {
+	color: #ffffff;
+	font-size: 20px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 0 8px;
+	margin: 1px;
+	position: absolute;
+	top: 114px;
+	right: -0px;
+	z-index: -999;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.aitasi .member .member-img:hover .twitter-icon i {
+	right: 114px;
+	z-index: 300;
+}
+
+.aitasi .member-social .linkedin-icon i {
+	color: #ffffff;
+	font-size: 20px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 0 8px;
+	margin: 1px;
+	position: absolute;
+	bottom: 114px;
+	left: -0px;
+	z-index: -999;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.aitasi .member .member-img:hover .linkedin-icon i {
+	left: 114px;
+	z-index: 300;
+}
+
+.aitasi .member-social .google-plus-icon i {
+	color: #ffffff;
+	font-size: 20px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 8px 0;
+	margin: 1px;
+	position: absolute;
+	bottom: -0px;
+	right: 114px;
+	z-index: -999;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.aitasi .member .member-img:hover .google-plus-icon i {
+	bottom: 114px;
+	z-index: 300;
+}
+
+.aitasi .member h3 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.member span {
+	font-size: 18px;
+}
+
+/* === Contact === */
+.aitasi #contact-page {
+	padding: 100px 0;
+}
+
+.aitasi #contact-page h1.contact-title {
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-bottom: 18px;
+}
+
+.aitasi #contact-page h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.aitasi #contact-page p {
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.aitasi .contact-form-area .form-control {
+	border-radius: 10px 0;
+	background-color: transparent;
+	margin-top: 28px;
+}
+
+.aitasi .contact-form-area textarea {
+	resize: none;
+}
+
+.aitasi .contact-form-area #kento-contact-form-submit {
+	border-radius: 10px 0;
+	padding: 8px 30px;
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 28px;
+	text-transform: uppercase;
+}
+
+.aitasi input[name="important-info"] {
+	display: none;
+}
+
+#kento-contact-form #myform #kento-contact-form-submit {
+	display: inline-block;
+}
+
+#kento-contact-form #myform .sending {
+	float: left;
+	position: absolute;
+	padding: 0;
+	margin: 2px 0 0 -22px;
+	height: 20px !important;
+	width: 15px !important;
+	display: none;
+}
+
+.glyphicon-refresh-animate {
+	-animation: spin .7s infinite linear;
+	-webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes spin {
+	from {
+		transform: scale(1) rotate(0deg);
+	}
+	to {
+		transform: scale(1) rotate(360deg);
+	}
+}
+
+/* === Footer === */
+.aitasi .footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #262626;
+}
+
+.aitasi .footer p {
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+/* === Responsive === */
+
+/* Small devices (mobiles, 320px and up) */
+@media (min-width: 320px) and (max-width: 479px) {
+	.aitasi .subscribe-area div {
+
+		display: inline-block;
+	}
+
+	.aitasi .subscribe-area .form-control {
+		width: 270px;
+		border-radius: 0;
+		margin: 0;
+
+	}
+
+	.aitasi #subscribe .submit-bt {
+		border-radius: 0;
+		width: 270px;
+	}
+
+	.aitasi .service-area-icon {
+		width: 300px;
+	}
+
+	.aitasi .service-area-left {
+		width: 100px;
+	}
+
+	.aitasi .service-area-right {
+		width: 100px;
+	}
+
+	.aitasi .member .member-img {
+		width: 270px;
+	}
+
+	.aitasi .member-social {
+		width: 270px;
+		height: 270px;
+	}
+
+	.aitasi .member .member-img:hover .facebook-icon i {
+		top: 98px;
+	}
+
+	.aitasi .member-social .facebook-icon i {
+		left: 98px;
+	}
+
+	.aitasi .member .member-img:hover .twitter-icon i {
+		right: 98px;
+	}
+
+	.aitasi .member-social .twitter-icon i {
+		top: 98px;
+	}
+
+	.aitasi .member .member-img:hover .linkedin-icon i {
+		left: 98px;
+	}
+
+	.aitasi .member-social .linkedin-icon i {
+		bottom: 98px;
+	}
+
+	.aitasi .member .member-img:hover .google-plus-icon i {
+		bottom: 98px;
+	}
+
+	.aitasi .member-social .google-plus-icon i {
+		right: 98px;
+	}
+
+}
